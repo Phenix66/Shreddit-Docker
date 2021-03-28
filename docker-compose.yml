@@ -1,7 +1,6 @@
-version: "3.8"
+version: "3"
 services:
   shreddit:
-    build: .
     image: phenix66/shredditdocker:latest
     volumes:
       - "./config:/shreddit"
